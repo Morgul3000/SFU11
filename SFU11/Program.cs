@@ -36,9 +36,9 @@ namespace SFU11
             switch (mathAction)
             {
                 case "+": calc.CalcAddition(x, y); break;
-                case "-": calc.CalcDivision(x, y); break;
+                case "-": calc.CalcSubtraction(x, y); break;
                 case "*": calc.CalcMultiplication(x, y); break;
-                case "/": calc.CalcSubtraction(x, y); break;
+                case "/": calc.CalcDivision(x, y); break;
             }
         }
 
