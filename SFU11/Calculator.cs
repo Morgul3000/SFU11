@@ -60,7 +60,7 @@ namespace SFU11
         }
         public void CalcSubtraction(double x, double y)
         {
-            Logger.Event("Калькулятор запущен. Метод деления");
+            Logger.Event("Калькулятор запущен. Метод вычетания");
             Console.WriteLine($"Результат вычисления - {x - y}");
             Logger.Event("Калькулятор завершил работу.");
             Console.ResetColor();
@@ -68,7 +68,7 @@ namespace SFU11
 
         public void CalcDivision(double x, double y)
         {
-            Logger.Event("Калькулятор запущен. Метод вычитания");
+            Logger.Event("Калькулятор запущен. Метод деления");
             Console.WriteLine($"Результат вычисления - {x / y}");
             Logger.Event("Калькулятор завершил работу.");
             Console.ResetColor();
